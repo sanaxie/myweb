@@ -406,3 +406,9 @@ a.mbtn {
     #work .swiper-slide:hover .txtbox {
         display: none;
     }
+
+a.morep {
+    padding-right: 30px;
+    display: block;
+   
+}

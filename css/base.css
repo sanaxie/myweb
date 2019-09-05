@@ -66,10 +66,10 @@
     }
 }
 
-a {
-    /* text-decoration: none; */
-    /* color: var(--color-link); */
-    /* outline: none; */
+/* a {
+     text-decoration: none; 
+    color: var(--color-link); 
+   outline: none; 
 }
 
     a:focus {
@@ -78,7 +78,7 @@ a {
 
     a:hover {
         color: var(--color-link-hover);
-    }
+    }*/
 
 .hidden {
     position: absolute;
