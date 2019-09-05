@@ -351,8 +351,8 @@ section.resume-section {
 }
 
     .swiper-slide:nth-child(2) {
-        background: #3183ff;
-        color: #fff;
+        /*background: #3183ff;
+        color: #fff;*/
     }
 
     .swiper-slide p {
