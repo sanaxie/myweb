@@ -161,9 +161,10 @@
             </h1>
 
             <div class="row">
-                <div class="col-9">
-                    <p class="lead mb-5">
-                    </p>
+                <div class="col-12 text-right mb-5">
+                    <a href="https://akachang9.myportfolio.com/" target="_blank" class="text-right">
+                        more
+                    </a>
                 </div>
             </div>
             <!-- Swiper -->
@@ -250,7 +251,7 @@
     <!-- Initialize Swiper -->
     <script>
         var swiperH = new Swiper('.swiper-container-h', {
-            autoHeight: true, //enable auto height
+           // autoHeight: true, //enable auto height
             spaceBetween: 50,
             loop: true,
             pagination: {
@@ -262,16 +263,15 @@
             paginationType: 'fraction',
             effect: 'coverflow',
             grabCursor: true,
-            centeredSlides: true,
-            //autoHeight: true,
+            centeredSlides: true,         
             mousewheelControl: true,
             slidesPerView: 'auto',
-
             autoplay: {
                 delay: 10000,
                 disableOnInteraction: false,
                 autoplayDisableOnInteraction: false,
             },
+
         });
         var swiperV = new Swiper('.swiper-container-v', {
             spaceBetween: 0,
