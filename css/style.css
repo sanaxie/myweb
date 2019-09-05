@@ -389,5 +389,20 @@ a.mbtn {
         background: #fff;
         left: 10px;
         padding: 10px;
+        display:block;
     }
 
+
+        #work .swiper-slide .txtbox .title {
+            font-size: 1.5rem;
+            color:#bd5d38;
+        }
+
+        #work .swiper-slide .txtbox .list {
+            font-size:1rem;
+            color:#5a5a5a;
+        }
+
+    #work .swiper-slide:hover .txtbox {
+        display: none;
+    }
