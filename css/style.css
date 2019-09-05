@@ -304,6 +304,12 @@ section.resume-section {
 }
 
 .mbtn {
+   
+   
+}
+
+a.mbtn {
+    color: #fff;
     background-color: #343a40;
     width: 50px;
     height: 50px;
@@ -311,8 +317,11 @@ section.resume-section {
     font-size: 30px;
     text-align: center;
     border-radius: 100%;
-    color: #f8f7f6;
 }
+
+    a.mbtn:active, a.mbtn:focus, a.mbtn:hover {
+        color: #d1c071;
+    }
 
 .fstyle {
     font-size: 3rem;
@@ -348,6 +357,7 @@ section.resume-section {
     -ms-flex-align: center;
     -webkit-align-items: flex-start;
     align-items: flex-start;
+    width:300px;
 }
 
     .swiper-slide:nth-child(2) {
