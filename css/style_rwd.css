@@ -8,7 +8,7 @@
 @media (min-width: 768px) {
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     section.resume-section#home .w-100 {
         z-index: 1;
         color: #fff;
@@ -17,10 +17,16 @@
         text-align: center;
         line-height: 35px;
     }
+
     .asec {
-        flex-direction: column;
+         flex-direction: column; 
     }
 
+    section.resume-section#work {
+    }
+    .swiper-slide {  
+       
+    }
 }
 
 @media (max-width: 992px) {
@@ -78,7 +84,6 @@
         top: 0px;
         right: 0px;
     }
-  
 }
 
 @media (min-width: 992px) {
@@ -102,6 +107,5 @@
 @media (max-width: 1200px) {
     .swiper-container {
         width: 70vw;
-       
     }
 }
