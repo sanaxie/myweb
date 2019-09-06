@@ -78,6 +78,11 @@
         top: 0px;
         right: 0px;
     }
+    .swiper-container {
+        width: 70vw;
+        height: 80vh;
+        margin: 20px auto;
+    }
 }
 
 @media (min-width: 992px) {
